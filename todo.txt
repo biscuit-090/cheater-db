@@ -1,0 +1,18 @@
+add more data points to the database:
+- cheater's favorite classes (add checkbox for all classes, do they play sniper, engie...)
+- cheater on a burner or main account?
+- has a previous vac ban on record?
+- cheater won/lost the game?
+- was cheater kicked?
+- uses microphone*
+- uses text chat
+- attempts to kick other players
+- says something racist
+DONE
+
+NEXT STEP:
+add a notification when the entry submission is good or fails.
+
+create a separate page that displays all of the most recent cheaters in a table of 10 entries per page.
+see if you can query steam's API to get the user's profile pic and other information to display
+also try to create a search bar that lets you search by certain filters (?)
