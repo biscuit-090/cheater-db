@@ -1,3 +1,46 @@
+NEXT ON DA CHOPPING BLOCK:
+==========================
+1. query steam's API to get the user's profile pic, vac status, trade ban status, community ban status, private profile status,
+account creation date, tf2 game hours, steam level and then autofill all the respective fields with this info so i dont fuckin have to
+
+2. write a sql transaction that verifies if the user's URL already exists in the db. if so, respond accordingly with "user already exists"
+
+3. add some validation for christs sake you can send anything right now and it goes through.
+
+========
+
+4. create a separate page that displays all of the most recent cheaters in a table of 10 entries per page.
+
+5. also try to create a search bar that queries the db and lets you search by profile url
+
+6. WRITE A PUBLIC FACING WEBSITE THAT TAKES ALL THE INFO FROM MY PRIVATE DB AND UPDATES
+THE WEBSITE'S GRAPHS N SHIT ONCE PER DAY BASED ON ALL CURRENT INFO LOL BRING ON THE PACKET FLOODERS
+
+
+
+RANDOM SHIT I CAME UP WITH FOR A VIDEO:
+=======================================
+cheaters are all disabled braindead retards
+that dont' know how to press WASD and click their mouse
+in the correct order to win a game. they're all fuckin stupid
+
+use the nerd emoji voice with the following while displaying clips of obvious cheating ocurring:
+'um, how can you be absolutely certain these people were cheating
+because clearly if you were an actual player like me who has
+excellent motor skills and the intelligence to determine real
+cheating, you would know that most of these people probably
+were just better than you and you got rekt because you lack
+even a modicum of experience playing the game in any type
+of professional environment. edit: thanks for the updoots
+kind stranger! edit 2: please stop asking me to kill myself, im not weak 
+minded like some of you pathetic simpletons.'
+
+play some funny nintendo music or some calm jazz over this narration
+
+
+
+SHIT THAT'S DONE:
+=================
 add more data points to the database:
 - cheater's favorite classes (add checkbox for all classes, do they play sniper, engie...)
 - cheater on a burner or main account?
@@ -12,7 +55,11 @@ DONE
 
 NEXT STEP:
 add a notification when the entry submission is good or fails.
+DONE
 
-create a separate page that displays all of the most recent cheaters in a table of 10 entries per page.
-see if you can query steam's API to get the user's profile pic and other information to display
-also try to create a search bar that lets you search by certain filters (?)
+make the server log a more verbose log when data is entered instead of just 'entry added: 1'
+DONE
+
+add columns for degenerate shit
+make a backup of current db before adding these columns
+DONE
