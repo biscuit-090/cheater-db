@@ -1,7 +1,6 @@
 NEXT ON DA CHOPPING BLOCK:
 ==========================
-1. query steam's API to get the user's profile pic, vac status, trade ban status, community ban status, private profile status,
-account creation date, tf2 game hours, steam level and then autofill all the respective fields with this info so i dont fuckin have to
+1. if profile is private, skip the game hours
 
 2. write a sql transaction that verifies if the user's URL already exists in the db. if so, respond accordingly with "user already exists"
 
@@ -23,6 +22,10 @@ RANDOM SHIT I CAME UP WITH FOR A VIDEO:
 cheaters are all disabled braindead retards
 that dont' know how to press WASD and click their mouse
 in the correct order to win a game. they're all fuckin stupid
+idiots that spend loads of money on bitcoin mining malware
+that they have no idea is stealing their personal data
+just to get raped by sweaty tryhards in game anyway.
+they're fuckin DUMB as shit.
 
 use the nerd emoji voice with the following while displaying clips of obvious cheating ocurring:
 'um, how can you be absolutely certain these people were cheating
@@ -63,3 +66,6 @@ DONE
 add columns for degenerate shit
 make a backup of current db before adding these columns
 DONE
+
+1. query steam's API to get the user's profile pic, vac status, trade ban status, community ban status, private profile status,
+account creation date, tf2 game hours, steam level and then autofill all the respective fields with this info so i dont fuckin have to

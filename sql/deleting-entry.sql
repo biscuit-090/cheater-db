@@ -1,0 +1,9 @@
+set @profile = 'https://steamcommunity.com/profiles/76561198113196129';
+delete from profile_info where profile_url = @profile;
+delete from notes where profile_url = @profile;
+delete from game_behavior where profile_url = @profile;
+delete from account_info where profile_url = @profile;
+delete from communications where profile_url = @profile;
+delete from type_of_cheats where profile_url = @profile;
+delete from classes_played where profile_url = @profile;
+delete from main where profile_url = @profile;
