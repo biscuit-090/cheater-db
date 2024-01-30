@@ -52,8 +52,11 @@ CREATE TABLE account_info (
     vac_ban BOOLEAN NOT NULL,
     trade_ban BOOLEAN NOT NULL,
     community_ban BOOLEAN NOT NULL,
+    num_vac_bans INT,
+    num_game_bans INT,
+    days_since_last_ban INT,
     private_profile BOOLEAN NOT NULL,
-	acc_age VARCHAR(255) NOT NULL,
+	acc_age VARCHAR(255),
 	game_hours INT,
 	steam_level INT,
     FOREIGN KEY (profile_url)
@@ -101,6 +104,7 @@ CREATE TABLE profile_info (
     brags_cheating BOOLEAN NOT NULL,
     has_youtube BOOLEAN NOT NULL,
     has_twitch BOOLEAN NOT NULL,
+	country VARCHAR(255),
     FOREIGN KEY (profile_url)
         REFERENCES main (profile_url)
 );
